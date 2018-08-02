@@ -4,7 +4,7 @@
 //Telegram
 
 define('TELEGRAM_BOT','332192248:AAGzQJsHm7GcHUmX8zlNNCIBfrSC6iHFoOQ', '1004699386', '1197777117');
-define('BOT_WEBHOOK', 'http://localhost/Tel_segnalazioni_master/start.php');
+define('BOT_WEBHOOK', 'https://telsegnalazionimaster.herokuapp.com/start.php');
 define('LOG_FILE', 'db/telegram.log');
 // Your csv database
 $csv_path=dirname(__FILE__).'/./db/map_data.txt';
